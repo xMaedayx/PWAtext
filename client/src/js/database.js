@@ -15,7 +15,7 @@ const initdb = async () =>
 //  Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
 console.log("accepts and adds to database");
-const dataDb = await putDB('jate', 1);
+const dataDb = await putDb('jate', 1);
 const tx = dataDb.transaction('jate', 'readwrite');
 const store = tx.objectStore('jate');
 const request = store.add({ body: content });
