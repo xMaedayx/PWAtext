@@ -18,7 +18,7 @@ console.log("accepts and adds to database");
 const dataDb = await putDb('jate', 1);
 const tx = dataDb.transaction('jate', 'readwrite');
 const store = tx.objectStore('jate');
-const request = store.add({ body: content });
+const request = store.put({id:1, value: content});
 const result = await request;
   console.log('🚀 - data saved to the database', result);
 };
