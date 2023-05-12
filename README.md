@@ -64,7 +64,6 @@ Repository follows best practices for class/id naming conventions, indentation, 
 Repository contains multiple descriptive commit messages
 Repository contains a quality README file with description, screenshot, and link to deployed application
 
-###### Submission 
-You are required to submit BOTH of the following for review:
-The URL of the functional, deployed application.
-The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+https://pacific-ridge-59829.herokuapp.com
+
+
