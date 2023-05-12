@@ -37,4 +37,3 @@ new StaleWhileRevalidate({
     }),
   ],
 })
-registerRoute();
